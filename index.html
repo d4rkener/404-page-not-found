@@ -3,11 +3,31 @@
   <head>
     <meta charset="UTF-8" />
     <link rel="icon" type="image/svg+xml" href="favicon.svg" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Vite App</title>
   </head>
   <body>
-    <h1>Hello World</h1>
+    <main class="main">
+      <div class="main__imgContainer">
+        <img
+          src="./src/assests/scarecrow.png"
+          alt="scarecrow"
+          class="main__img"
+        />
+      </div>
+      <div>
+        <h1 class="main__title">I have bad news for you</h1>
+        <p class="main__paragraph">
+          The page you are looking for might be removed or is temporarily
+          unavailable
+        </p>
+        <a href="#" class="btn">Back to homepage</a>
+      </div>
+    </main>
     <script type="module" src="./src/scripts/main.js"></script>
   </body>
 </html>

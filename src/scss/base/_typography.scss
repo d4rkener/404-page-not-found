@@ -1,0 +1,13 @@
+@use '../abstracts' as abs;
+
+h1 {
+  font-family: 700;
+  color: abs.$darkGray;
+  font-size: 3rem;
+}
+
+p {
+  font-family: 400;
+  color: abs.$lightGray;
+  font-size: 1.125rem;
+}
